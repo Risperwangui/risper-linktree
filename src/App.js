@@ -30,7 +30,6 @@ function App() {
         <div>
           <a href="https://training.zuri.team/"  target="_blank">
           <button id="btn_zuri"> Zuri Team </button>
-         Hover me
           </a>
         </div>
         <div>
@@ -38,7 +37,6 @@ function App() {
             <button id="books">
               Zuri Books
             </button>
-            Hover me
           </a>
         </div>
         <div>
@@ -46,7 +44,6 @@ function App() {
             <button id="book_python">
               Beginners for python
             </button>
-            Hover me
           </a>
         </div>
         <div>
@@ -54,7 +51,6 @@ function App() {
             <button id="pitch">
               Background check on coders
             </button>
-            Hover me
           </a>
         </div>
         <div>
@@ -62,7 +58,6 @@ function App() {
             <button id="book_design">
               Design book
             </button>
-            Hover me
           </a>
         </div>
     </div>
