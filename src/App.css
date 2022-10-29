@@ -1,4 +1,5 @@
-.App {
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +36,115 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.app{
+background-image: url(../public/background_image.jpeg) ;
+display:flex;
+flex-direction: column;
+align-items: center;
+background-repeat: no-repeat;
+background-size: cover;
+
 }
+
+
+
+#profile_img{
+  border-radius: 150px;
+  height: 160px;
+  width: 160px;
+}
+
+.profile{
+  text-align: center;
+}
+
+#twitter{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  
+}
+
+#slack{
+  visibility: hidden;
+}
+
+#btn_zuri{
+    
+    background:  #d1a916;
+    color: #0c0c0e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    width: 500px;
+    cursor: pointer;
+
+}
+
+#books
+{
+  background: #d1a916;
+  color: #0c0c0e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  width: 500px;
+  cursor: pointer;
+  box-shadow: 3px 10px black ;
+
+}
+
+#book_python{
+  background: #d1a916;
+  color: #0c0c0e;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  border-radius: 50px;
+  font-size: 18px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  width: 500px;
+  cursor: pointer;
+
+
+}
+#pitch{
+  background: #d1a916;
+  color:#0c0c0e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+  width: 500px;
+  cursor: pointer;
+}
+
+#book_design{
+  background:  #d1a916;;
+  color:#0c0c0e;
+  font-family:  Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
+   width: 500px;
+   cursor: pointer;
+  
+}
+#book_design:hover{
+  background-color: blue;
+  transition: ;
+}
+
